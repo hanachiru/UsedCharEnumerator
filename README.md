@@ -1,0 +1,2 @@
+# UsedCharEnumerator
+UnityのAssets内で使用されている文字を列挙するエディタ拡張
