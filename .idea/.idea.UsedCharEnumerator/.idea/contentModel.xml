@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.3/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.3/resharper-host/local/Transient/Rider/v203/SolutionCaches/_UsedCharEnumerator.-1109449889.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assets" t="Include">
+        <e p="UsedCharEnumerator" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="CharEnumerator.cs" t="Include" />
+            <e p="Editor" t="Include">
+              <e p="UsedCharEnumerator.Editor.asmdef" t="Include" />
+              <e p="UsedCharEnumeratorWindow.cs" t="Include" />
+            </e>
+            <e p="FileReader.cs" t="Include" />
+            <e p="FileTextFormatter.cs" t="Include" />
+            <e p="Tests" t="Include">
+              <e p="CharEnumeratorTest.cs" t="Include" />
+              <e p="FileReaderTest.cs" t="Include" />
+              <e p="FileTextFormatterTest.cs" t="Include" />
+              <e p="TestData" t="Include">
+                <e p="TestScript.cs" t="Include" />
+                <e p="TestText.txt" t="Include" />
+              </e>
+              <e p="TestScriptableObject.cs" t="Include" />
+              <e p="UsedCharEnumerator.Tests.asmdef" t="Include" />
+            </e>
+            <e p="UsedCharEnumerator.asmdef" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp/bin" t="ExcludeRecursive" />
+      <e p="UsedCharEnumerator.csproj" t="IncludeRecursive" />
+      <e p="UsedCharEnumerator.Editor.csproj" t="IncludeRecursive" />
+      <e p="UsedCharEnumerator.sln" t="IncludeFlat" />
+      <e p="UsedCharEnumerator.Tests.csproj" t="IncludeRecursive" />
+    </e>
+  </component>
+</project>

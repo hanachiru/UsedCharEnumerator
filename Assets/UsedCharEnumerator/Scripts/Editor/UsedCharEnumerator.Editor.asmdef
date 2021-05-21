@@ -1,6 +1,8 @@
 {
     "name": "UsedCharEnumerator.Editor",
-    "references": [],
+    "references": [
+        "UsedCharEnumerator"
+    ],
     "optionalUnityReferences": [],
     "includePlatforms": [
         "Editor"
