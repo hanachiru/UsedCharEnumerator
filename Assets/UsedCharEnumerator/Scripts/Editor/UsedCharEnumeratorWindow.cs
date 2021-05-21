@@ -51,8 +51,10 @@ namespace UsedCharEnumerator.Editor
             // 検索ボタン
             if (GUILayout.Button("Search", GUILayout.Height(16)))
             {
+                EditorUtility.DisplayProgressBar("検索中","フォルダ内のファイルを走査中……", 0);
                 if (_searchAllFile) _output = _enumerator.Execute(AssetsPath, _searchFileExtensions.Where(f => f.Value).Select(f => f.Key));
                 else if (_searchFolder != null) _output = _enumerator.Execute(DefaultAssets2AbsolutePath(_searchFolder),  _searchFileExtensions.Where(f => f.Value).Select(f => f.Key));
+                EditorUtility.ClearProgressBar();
             }
 
             // 結果を出力するテキスト
