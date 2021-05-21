@@ -1,15 +1,10 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using NUnit.Framework;
 using UnityEngine;
-using UnityEngine.TestTools;
-using UsedCharEnumerator;
-using CharEnumerator = UsedCharEnumerator.CharEnumerator;
 
-namespace Tests
+namespace UsedCharEnumerator.Tests
 {
     public class CharEnumeratorTest
     {
