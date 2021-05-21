@@ -10,7 +10,7 @@ namespace UsedCharEnumerator
         {
             if (fileExtension != ".asset") return fileText;
 
-            // ScriptableObjecはUnicode 文字のエスケープシーケンスのため
+            // ScriptableObjectはUnicode 文字のエスケープシーケンスのため
             return fileText.Select(Regex.Unescape);
         }
     }

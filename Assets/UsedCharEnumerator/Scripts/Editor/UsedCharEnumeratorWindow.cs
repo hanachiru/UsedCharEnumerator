@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using UnityEditor;
@@ -15,6 +13,8 @@ namespace UsedCharEnumerator.Editor
         private string _output;
         
         private readonly CharEnumerator _enumerator = new CharEnumerator();
+
+        private string AssetsPath => Directory.GetCurrentDirectory() + "/Assets/";
 
         private readonly Dictionary<string, bool> _searchFileExtensions = new Dictionary<string, bool>()
         {
@@ -51,7 +51,7 @@ namespace UsedCharEnumerator.Editor
             // 検索ボタン
             if (GUILayout.Button("Search", GUILayout.Height(16)))
             {
-                if (_searchAllFile) _output = _enumerator.Execute(Directory.GetCurrentDirectory() + "/Assets/", _searchFileExtensions.Where(f => f.Value).Select(f => f.Key));
+                if (_searchAllFile) _output = _enumerator.Execute(AssetsPath, _searchFileExtensions.Where(f => f.Value).Select(f => f.Key));
                 else if (_searchFolder != null) _output = _enumerator.Execute(DefaultAssets2AbsolutePath(_searchFolder),  _searchFileExtensions.Where(f => f.Value).Select(f => f.Key));
             }
 
@@ -64,10 +64,9 @@ namespace UsedCharEnumerator.Editor
         /// <summary>
         /// アセットを絶対パスに変換して更新しておく
         /// </summary>
-        /// <param name="asset">選んだアセット</param>
         private string DefaultAssets2AbsolutePath(DefaultAsset asset)
         {
-            var path = AssetDatabase.GetAssetOrScenePath(_searchFolder);
+            var path = AssetDatabase.GetAssetOrScenePath(asset);
             string[] folderList = path.Split('/');
             if (folderList[folderList.Length - 1].Contains(".")) path = null;
 

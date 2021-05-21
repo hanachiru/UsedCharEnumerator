@@ -10,8 +10,9 @@ namespace UsedCharEnumerator
         /// <summary>
         /// ファイルを読み込み、使用されている文字列一覧を取得する
         /// </summary>
-        /// <param name="infos">ファイル情報群</param>
-        /// <returns>使用されている文字列</returns>
+        /// <param name="absoletePath">検索するフォルダの絶対パス</param>
+        /// <param name="fileExtensions">対象の拡張子</param>
+        /// <returns>使用されている文字の一覧</returns>
         public string Execute(string absoletePath, IEnumerable<string> fileExtensions)
         {
             var files = FileReader.Get(absoletePath, fileExtensions);
