@@ -1,6 +1,6 @@
 # UsedCharEnumerator
 UnityのAssets内(もしくは特定のフォルダ)で使用されている文字を列挙するエディタ拡張  
-![Demo](https://user-images.githubusercontent.com/46705432/119090317-7185c000-ba46-11eb-8a40-0294b8e851e9.mov)
+![Demo](https://user-images.githubusercontent.com/46705432/119090937-3df76580-ba47-11eb-9c92-42ebc007910f.png)
 
 ## Dependency
 Unity 2018.4.0f1(以上)  
@@ -19,7 +19,7 @@ Unity 2018.4.0f1(以上)
 その対策として、使用する文字だけをアセットに入れるという方法がよく取られます。  
 [【Unity】TextMeshProのフォント用のアセットに指定した文字だけを入れて容量を下げる手順](https://www.hanachiru-blog.com/entry/2019/06/06/114214)
   
-使用する文字だけを取り出すという作業をこのライブラリによってボタンを押すだけで可能となっています。
+使用する文字だけを取り出すという作業をこのライブラリによってボタンを押すだけで可能になりました。
 
 ## License
 This software is released under the MIT License, see LICENSE.
