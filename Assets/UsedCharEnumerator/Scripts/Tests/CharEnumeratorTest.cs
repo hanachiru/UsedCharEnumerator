@@ -63,6 +63,34 @@ namespace UsedCharEnumerator.Tests
             
             Assert.AreEqual(result.Contains("エクセル"), true);
         }
+
+        [Test]
+        public void ErrorTest1()
+        {
+            try
+            {
+                var result = new CharEnumerator().Execute(null, new[] {".csv"});
+                Assert.Fail();
+            }
+            catch (ArgumentException e)
+            {
+                Assert.Pass();
+            }
+        }
+
+        [Test]
+        public void ErrorTest2()
+        {
+            try
+            {
+                var result = new CharEnumerator().Execute(GetAbsolutePath(""), null);
+                Assert.Fail();
+            }
+            catch (ArgumentException e)
+            {
+                Assert.Pass();
+            }
+        }
         
         private static string GetAbsolutePath(string fileName)
         {
