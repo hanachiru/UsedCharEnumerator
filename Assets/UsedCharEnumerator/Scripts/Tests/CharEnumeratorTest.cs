@@ -72,7 +72,7 @@ namespace UsedCharEnumerator.Tests
                 var result = new CharEnumerator().Execute(null, new[] {".csv"});
                 Assert.Fail();
             }
-            catch (ArgumentException e)
+            catch (ArgumentException)
             {
                 Assert.Pass();
             }
@@ -86,7 +86,7 @@ namespace UsedCharEnumerator.Tests
                 var result = new CharEnumerator().Execute(GetAbsolutePath(""), null);
                 Assert.Fail();
             }
-            catch (ArgumentException e)
+            catch (ArgumentException)
             {
                 Assert.Pass();
             }
