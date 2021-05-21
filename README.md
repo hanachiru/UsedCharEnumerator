@@ -27,13 +27,13 @@ Assets以下の全てのファイルに対して走査を行う場合は、<code
 また<code>.asset</code>は<code>ScriptableObject</code>も含みます。
 
 3. 実行する  
-1,2の設定検索を行います。
+1,2の設定で検索を行います。
 
 4. 出力  
 実行結果が出力されます。  
 
 ## Note
-[TextMeshPro](https://docs.unity3d.com/ja/2019.4/Manual/com.unity.textmeshpro.html)で日本語に対応する際に非常に効果的です。  
+このライブラリは[TextMeshPro](https://docs.unity3d.com/ja/2019.4/Manual/com.unity.textmeshpro.html)で日本語に対応する際に非常に効果的です。  
 
 常用漢字を全て入れようと思うと<code>Atlas Resolution</code>を<code>4096x4096</code>もしくは<code>8192x8192</code>にする必要があり、容量が非常に大きくなります。  
 
