@@ -1,0 +1,19 @@
+{
+    "name": "UsedCharEnumerator.Tests",
+    "references": [
+        "UsedCharEnumerator",
+        "UsedCharEnumerator.Editor"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": []
+}
