@@ -8,9 +8,9 @@ namespace UsedCharEnumerator
 {
     public class FileTextFormatter
     {
-        public IEnumerable<string> Execute(IEnumerable<string> fileText, FileExtension fileExtension)
+        public IEnumerable<string> Execute(IEnumerable<string> fileText, string fileExtension)
         {
-            if (fileExtension != FileExtension.asset) return fileText;
+            if (fileExtension != ".asset") return fileText;
 
             // ScriptableObjecはUnicode 文字のエスケープシーケンスのため
             return fileText.Select(Regex.Unescape);
