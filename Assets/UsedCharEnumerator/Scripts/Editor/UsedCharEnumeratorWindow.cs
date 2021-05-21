@@ -21,9 +21,9 @@ namespace UsedCharEnumerator.Editor
             { ".txt", false },
             { ".cs", false },
             { ".asset", false },
-            { "json", false },
-            { "xml", false },
-            { "csv", false },
+            { ".json", false },
+            { ".xml", false },
+            { ".csv", false },
         };
 
         [MenuItem("Tools/UsedCharEnumerator")]
