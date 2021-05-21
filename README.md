@@ -1,6 +1,6 @@
 # UsedCharEnumerator
 UnityのAssets内(もしくは特定のフォルダ)で使用されている文字を列挙するエディタ拡張  
-![Demo](https://user-images.githubusercontent.com/46705432/104748490-27898680-5795-11eb-98e9-92a05e2ec5ac.gif)
+![Demo](https://user-images.githubusercontent.com/46705432/119090317-7185c000-ba46-11eb-8a40-0294b8e851e9.mov)
 
 ## Dependency
 Unity 2018.4.0f1(以上)  
