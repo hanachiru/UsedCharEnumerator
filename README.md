@@ -35,7 +35,7 @@ Assets以下の全てのファイルに対して走査を行う場合は、<code
 ## Note
 このライブラリは[TextMeshPro](https://docs.unity3d.com/ja/2019.4/Manual/com.unity.textmeshpro.html)で日本語に対応する際に非常に効果的です。  
 
-常用漢字を全て入れようと思うと<code>Atlas Resolution</code>を<code>4096x4096</code>もしくは<code>8192x8192</code>にする必要があり、容量が非常に大きくなります。  
+常用漢字を全て入れようと思うと<code>Atlas Resolution</code>を<code>4096x4096</code>もしくは<code>8192x8192</code>にする必要が多々あり、容量が非常に大きくなります。  
 
 その対策として、使用する文字だけをアセットに入れるという方法がよく取られます。  
 [【Unity】TextMeshProのフォント用のアセットに指定した文字だけを入れて容量を下げる手順](https://www.hanachiru-blog.com/entry/2019/06/06/114214)
