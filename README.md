@@ -1,5 +1,5 @@
 # UsedCharEnumerator
-<b>UsedCharEnumerator</b>はUnityのAssets内(もしくは特定のフォルダ)で使用されている文字を列挙するエディタ拡張です。  
+<code>UsedCharEnumerator</code>はUnityのAssets内(もしくは特定のフォルダ)で使用されている文字を列挙するエディタ拡張です。  
 ![Demo](https://user-images.githubusercontent.com/46705432/119090937-3df76580-ba47-11eb-9c92-42ebc007910f.png)
 
 ## Dependency
