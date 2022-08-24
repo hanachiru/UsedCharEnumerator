@@ -1,12 +1,12 @@
 # UsedCharEnumerator
-UnityのAssets内(もしくは特定のフォルダ)で使用されている文字を列挙するエディタ拡張  
+<b>UsedCharEnumerator</b>はUnityのAssets内(もしくは特定のフォルダ)で使用されている文字を列挙するエディタ拡張です。  
 ![Demo](https://user-images.githubusercontent.com/46705432/119090937-3df76580-ba47-11eb-9c92-42ebc007910f.png)
 
 ## Dependency
-Unity 2018.4.0f1(以上)  
+Unity 2018.4.0f1 or later
 
 ## Setup
-[Releaseページ](https://github.com/hanachiru/UsedCharEnumerator/releases)から`.unitypackage`をインストールする
+[Releaseページ](https://github.com/hanachiru/UsedCharEnumerator/releases)から`.unitypackage`をインストールしてください。
 
 ## Usage
 ### UsedCharEnumeratorWindowの開き方
