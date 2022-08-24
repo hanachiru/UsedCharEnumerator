@@ -40,7 +40,7 @@ Assets以下の全てのファイルに対して走査を行う場合は、<code
 その対策として、使用する文字だけをアセットに入れるという方法がよく取られます。  
 [【Unity】TextMeshProのフォント用のアセットに指定した文字だけを入れて容量を下げる手順](https://www.hanachiru-blog.com/entry/2019/06/06/114214)
   
-使用する文字だけを取り出すという作業をこのライブラリによってボタンを押すだけで可能になりました。
+使用する文字だけを取り出すという作業をこのライブラリによってボタンを押すだけで可能になります。
 
 ## License
 This software is released under the MIT License, see LICENSE.
